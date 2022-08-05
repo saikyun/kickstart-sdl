@@ -4,7 +4,7 @@
 
 ### Enable running remotely signed PowerShell Scripts
 
-This allows essentially any powershell scripts to run on your system.
+This allows essentially any PowerShell scripts to run on your system.
 
 As an alternative, you can just copy / paste the contents of the .ps1 scripts mentioned below, into your PowerShell.
 
