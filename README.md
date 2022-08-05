@@ -39,7 +39,13 @@ As an alternative, you can just copy/paste the contents of the ps1 scripts menti
 ### Building
 
 1. Start a Developer Powershell for x64 (see below if you don't know how)
-2. Enter the following commands:
+2. Verify that you have x64 cl.exe by running: `cl`
+   1. You should get: (specifically the `for x64` part)
+   ```
+   Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
+   Copyright (C) Microsoft Corporation.  All rights reserved.
+   ```
+3. Enter the following commands:
 ```
 git clone https://github.com/saikyun/sdl-lessons
 cd sdl-lessons
