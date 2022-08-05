@@ -53,6 +53,8 @@ cd sdl-lessons
 .\scripts\compile-and-run.ps1
 ```
 
+This should result in a blank window showing for 1 second, if so: good job! If not: blame me! (Please create an issue.)
+
 ### How to start Developer Powershell for x64
 
 #### Add to Terminal
