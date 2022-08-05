@@ -1,6 +1,5 @@
 # sdl-lessons
 
-
 ## Windows
 
 ### Enable running remotely signed PowerShell Scripts
@@ -14,17 +13,15 @@
 
 As an alternative, you can just copy / paste the contents of the ps1 scripts mentioned below, into your PowerShell.
 
-### Clone repo
+### Clone repo and install build tools
 
-In PowerShell, run the following:
+1. In PowerShell, run the following:
 ```
 git clone https://github.com/saikyun/sdl-lessons
 cd sdl-lessons
+.\scripts\install-build-tools.ps1
 ```
-
-### Install build tools
-
-Run: `.\scripts\install-build-tools.ps1`
+2. Close PowerShell
 
 ### Building
 
