@@ -12,7 +12,7 @@
    1. This allows essentially any powershell scripts to run on your system
 3. Close the Admin shell
 
-As an alternative, you can just copy/paste the contents of the ps1 scripts mentioned below.
+As an alternative, you can just copy / paste the contents of the ps1 scripts mentioned below, into your PowerShell.
 
 ### Clone repo
 
