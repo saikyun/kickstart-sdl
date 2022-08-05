@@ -39,7 +39,7 @@ As an alternative, you can just copy/paste the contents of the ps1 scripts menti
 ### How to start Developer Powershell for x64
 
 #### Upgrade a regular shell
-1. Start "Powershell"
+1. Start "Windows PowerShell"
 2. Run: `Enter-VsDevShell ddd73222 -DevCmdArguments '-arch=x64'`
 
 #### Make a shortcut
