@@ -59,7 +59,7 @@ This should result in a blank window showing for 1 second, if so: good job! If n
 
 #### Add to Terminal
 1. Start "Terminal" (open Windows Start Menu, then write "Terminal")
-   1. If you're lucky, you can just click "+" then `Developer PowerShell for VS 2022`
+   1. If you're lucky, you can just click the arrow next to the "+" button then `Developer PowerShell for VS 2022`
    2. Otherwise, follow the steps below
 2. Click the arrow next to the "+" button
 3. Click "Add a new profile"
