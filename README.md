@@ -36,27 +36,9 @@
 
 As an alternative, you can just copy/paste the contents of the ps1 scripts mentioned below.
 
-### How to start Developer Powershell for x64
-
-#### Upgrade a regular shell
-1. Start "Windows PowerShell"
-2. Run: `Enter-VsDevShell ddd73222 -DevCmdArguments '-arch=x64'`
-
-#### Make a shortcut
-1. Press the Windows button
-2. Write "Developer Powershell"
-3. Right-click "Developer PowerShell for VS 2022"
-4. Click "Open File Location" (please confirm that this is right, might be named something else, I'm not on english Windows)
-5. Make a copy of "Developer PowerShell for VS 2022" in Explorer
-6. Right-click your copy of "Developer PowerShell for VS 2022"
-7. Click "Properties"
-8. Under "Target", Change `Enter-VsDevShell ddd73222}"` to `Enter-VsDevShell ddd73222 -DevCmdArguments '-arch=x64'}"`
-9. (Optional) Rename the shortcut to have x64 in the name
-10. In the Windows Start Menu, you can now find the Developer Powershell x64 shortcut you made
-
 ### Building
 
-1. Start a Developer Powershell for x64, see above on how to start a Developer Powershell
+1. Start a Developer Powershell for x64 (see below if you don't know how)
 2. Enter the following commands:
 ```
 git clone https://github.com/saikyun/sdl-lessons
@@ -64,3 +46,27 @@ cd sdl-lessons
 .\scripts\download-deps.ps1
 .\scripts\compile-and-run.ps1
 ```
+
+### How to start Developer Powershell for x64
+
+#### Add to Terminal
+1. Start Terminal
+   1. If you're lucky, you can just click "+" then `Developer PowerShell for VS 2022`
+   2. Otherwise, follow the steps below
+2. Click the arrow next to the "+" button
+3. Click "Add a new profile"
+4. In "Name", put: `Developer PowerShell for VS 2022`
+5. In "Command Line", put: `powershell.exe -NoExit -Command "&{Import-Module """C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"""; Enter-VsDevShell ddd73222 -SkipAutomaticLocation -DevCmdArguments """-arch=x64 -host_arch=x64"""}"`
+   1. The `Import-Module` path might not be the right one, if it doesn't work, try following the steps in "Create a shortcut", but instead of copying the shortcut, just take the text in "Target", and modify the final part to contain `-SkipAutomaticLocation -DevCmdArguments """-arch=x64 -host_arch=x64`
+
+#### Create a shortcut
+1. Press the Windows button
+2. Write "Developer Powershell"
+3. Right-click "Developer PowerShell for VS 2022"
+4. Click "Open File Location" (please confirm that this is right, might be named something else, I'm not on english Windows)
+5. Make a copy of "Developer PowerShell for VS 2022" in Explorer
+6. Right-click your copy of "Developer PowerShell for VS 2022"
+7. Click "Properties"
+8. Under "Target", Change `Enter-VsDevShell ddd73222}"` to `Enter-VsDevShell ddd73222 -SkipAutomaticLocation -DevCmdArguments '-arch=x64'}"`
+9. (Optional) Rename the shortcut to have x64 in the name
+10. In the Windows Start Menu, you can now find the Developer Powershell x64 shortcut you made
