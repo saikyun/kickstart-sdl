@@ -58,7 +58,7 @@ This should result in a blank window showing for 1 second, if so: good job! If n
 ### How to start Developer Powershell for x64
 
 #### Add to Terminal
-1. Start Terminal
+1. Start "Terminal" (open Windows Start Menu, then write "Terminal")
    1. If you're lucky, you can just click "+" then `Developer PowerShell for VS 2022`
    2. Otherwise, follow the steps below
 2. Click the arrow next to the "+" button
