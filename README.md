@@ -2,6 +2,12 @@
 
 ## Windows
 
+### Install git
+
+1. Go to https://git-scm.com/download/win
+2. Click "64-bit Git for Windows Setup."
+3. Run the .exe and follow the instructions
+
 ### Enable running remotely signed PowerShell Scripts
 
 This allows essentially any PowerShell scripts to run on your system. This is done so that you can run the included .ps1 script for downloading dependencies and building.
