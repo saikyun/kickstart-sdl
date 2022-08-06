@@ -4,11 +4,11 @@
 
 ### Prerequisites
 
-Follow along the steps below to install these automatically.
-
 * Git
 * Visual Studio Build Tools
 * SDL2 dev files
+
+Follow along the steps below to install these automatically.
 
 ### Enable running remotely signed PowerShell Scripts
 
