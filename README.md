@@ -34,22 +34,32 @@ Start-Process -FilePath vs_buildtools.exe -ArgumentList "--add", "Microsoft.Visu
 Remove-Item vs_buildtools.exe
 ```
 
-### Clone repo, download SDL dependency
+### Set up Terminal & clone repo
 
 1. Open Terminal
    1. If you can't find Terminal in the Windows Start Menu, download it from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)
-2. (Optional) Change Terminal startup directory, see [Change default startup directory in Terminal](#change-default-startup-directory-in-terminal)
+2. Set Terminal Starting Directory
+   1. Click the arrow next to the `+` button
+   2. Click "Settings"
+   3. Under "Profiles", click "Defaults"
+   4. Set "Starting Directory" to the directory where you want to keep your projects
+   5. Click "Save"
 3. Click the arrow next to the `+` button, and choose "Developer PowerShell for VS 2022"
 4. Run the following commands:
 ```
 git clone https://github.com/saikyun/sdl-lessons
 cd sdl-lessons
+```
+
+**From now on, all commands are expected to run in the `sdl-lessons` directory using the "Developer PowerShell for VS 2022"**
+
+### Download SDL2 dev files
+
+```
 .\scripts\download-deps.ps1
 ```
 
 ### Build and run
-
-In the Developer PowerShell tab, run:
 
 ```
 .\scripts\compile-and-run.ps1
@@ -59,10 +69,15 @@ This should result in a blank window showing for 1 second, if so, good job!
 
 If not, please create an issue.
 
-### Change default startup directory in Terminal
+### Summary
 
-1. Click the arrow next to the `+` button
-2. Click "Settings"
-3. Under "Profiles", click "Defaults"
-4. Set "Starting Directory" to the directory where you want to keep your projects
-5. Click "Save"
+You have now:
+* Installed git
+* Installed Visual Studio Build Tools, which includes the C compiler cl.exe
+* Cloned the sdl-lessons repo
+* Downloaded SDL2 dev files
+* Compiled and ran the sample program
+
+You are now ready to start writing C programs using SDL!
+
+If you are curious about exactly what happens in the .ps1-files, feel free to read them. They're pretty short.
