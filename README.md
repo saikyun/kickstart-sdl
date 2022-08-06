@@ -59,12 +59,14 @@ cd sdl-lessons
 
 ### Download SDL2 dev files
 
+Run:
 ```
 .\scripts\download-deps.ps1
 ```
 
 ### Build and run
 
+Run:
 ```
 .\scripts\compile-and-run.ps1
 ```
