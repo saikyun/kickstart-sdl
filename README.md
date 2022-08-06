@@ -10,7 +10,7 @@ Guide and scripts for getting started with C and SDL quickly.
 * Visual Studio Build Tools
 * SDL2 dev files
 
-Follow along the steps below to install these automatically.
+Follow along the steps below to install these automatically. They are tested on Windows 11.
 
 ### Enable running remotely signed PowerShell Scripts
 
@@ -25,7 +25,7 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 
 ### Install Git and Visual Studio Build Tools
 
-1. Start PowerShell
+1. Start Windows PowerShell
 2. Copy / paste the following commands:
 ```
 # install git
