@@ -2,7 +2,7 @@
 
 ## Windows
 
-### Microsoft Build Tools / Developer PowerShell for VS 2022 / cl.exe
+### Visual Studio Build Tools / Developer PowerShell for VS 2022 / cl.exe
 
 This includes all that's needed to compile C projects that includes SDL.
 
