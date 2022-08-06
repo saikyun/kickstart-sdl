@@ -25,7 +25,7 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 
 ### Install Git and Visual Studio Build Tools
 
-1. Start Windows PowerShell
+1. Start "Windows PowerShell"
 2. Copy / paste the following commands:
 ```
 # install git
@@ -36,10 +36,11 @@ Invoke-RestMethod -Uri https://aka.ms/vs/17/release/vs_buildtools.exe -OutFile v
 Start-Process -FilePath vs_buildtools.exe -ArgumentList "--add", "Microsoft.VisualStudio.Component.VC.Tools.x86.x64", "--add", "Microsoft.VisualStudio.Component.Windows10SDK.19041", "--norestart", "--passive", "--wait" -Wait -PassThru
 Remove-Item vs_buildtools.exe
 ```
+3. Close PowerShell
 
 ### Set up Terminal & clone repo
 
-1. Open Terminal
+1. Open "Terminal"
    1. If you can't find Terminal in the Windows Start Menu, download it from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)
 2. Set Terminal Starting Directory
    1. Click the arrow next to the `+` button
