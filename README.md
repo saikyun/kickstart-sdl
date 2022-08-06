@@ -1,4 +1,6 @@
-# sdl-lessons
+# kickstart-sdl
+
+Guide and scripts for getting started with C and SDL quickly.
 
 ## Windows
 
