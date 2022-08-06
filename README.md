@@ -4,7 +4,7 @@
 
 ### Enable running remotely signed PowerShell Scripts
 
-This allows essentially any PowerShell scripts to run on your system. This is done so that you can run the included .ps1 script for downloading dependencies and building.
+This allows essentially any PowerShell scripts to run on your system. This is done so that you can run the included .ps1 scripts for downloading dependencies and building.
 
 As an alternative, you can just copy / paste the contents of the .ps1 scripts mentioned below, into your PowerShell.
 
