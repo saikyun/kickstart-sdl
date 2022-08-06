@@ -2,6 +2,14 @@
 
 ## Windows
 
+### Prerequisites
+
+Follow along the steps below to install these automatically.
+
+* Git
+* Visual Studio Build Tools
+* SDL2 dev files
+
 ### Enable running remotely signed PowerShell Scripts
 
 This allows essentially any PowerShell scripts to run on your system. This is done so that you can run the included .ps1 scripts for downloading dependencies and building.
@@ -11,14 +19,6 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 1. Open an Admin PowerShell by opening Windows Start Menu, search for `Windows PowerShell`, right click and click "Start as Administrator"
 2. In the new Admin shell run: `Set-ExecutionPolicy RemoteSigned`
 3. Close the Admin shell
-
-### Prerequisites
-
-* Git
-* Visual Studio Build Tools
-* SDL2 dev files
-
-If you want to automatically install everything, follow the next section.
 
 ### Install Git and Visual Studio Build Tools
 
