@@ -20,7 +20,8 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 
 1. Open an Admin PowerShell by opening Windows Start Menu, search for `Windows PowerShell`, right click and click "Start as Administrator"
 2. In the new Admin shell run: `Set-ExecutionPolicy RemoteSigned`
-3. Close the Admin shell
+3. Press `Y` then Enter.
+4. Close the Admin shell
 
 ### Install Git and Visual Studio Build Tools
 
