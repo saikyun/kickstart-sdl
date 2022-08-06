@@ -37,6 +37,12 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 
 1. Open Terminal
   1. If you can't find Terminal in the Windows Start Menu, download it from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)
+2. (Optional) Change default startup directory
+   1. Click the arrow next to the `+` button
+   2. Click "Settings"
+   3. Under "Profiles", click "Defaults"
+   4. Set "Starting Directory" to the directory where you want to keep your projects
+   5. Click "Save"
 2. Click the arrow next to the `+` button, and choose "Developer PowerShell for VS 2022"
 3. Run the following commands:
 ```
