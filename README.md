@@ -34,7 +34,7 @@ Start-Process -FilePath vs_buildtools.exe -ArgumentList "--add", "Microsoft.Visu
 Remove-Item vs_buildtools.exe
 ```
 
-### Clone repo, install build tools and SDL
+### Clone repo, download SDL dependency
 
 1. Open Terminal
   1. If you can't find Terminal in the Windows Start Menu, download it from the [Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)
