@@ -2,14 +2,6 @@
 
 ## Windows
 
-### Prerequisites
-
-* Git
-* Visual Studio Build Tools
-* SDL2 dev files
-
-If you want to automatically install everything, follow the next three sections.
-
 ### Enable running remotely signed PowerShell Scripts
 
 This allows essentially any PowerShell scripts to run on your system. This is done so that you can run the included .ps1 script for downloading dependencies and building.
@@ -20,7 +12,15 @@ As an alternative, you can just copy / paste the contents of the .ps1 scripts me
 2. In the new Admin shell run: `Set-ExecutionPolicy RemoteSigned`
 3. Close the Admin shell
 
-### Install all programs and dependencies
+### Prerequisites
+
+* Git
+* Visual Studio Build Tools
+* SDL2 dev files
+
+If you want to automatically install everything, follow the next section.
+
+### Install Git and Visual Studio Build Tools
 
 1. Start PowerShell
 2. Copy / paste the following commands:
@@ -47,7 +47,7 @@ cd sdl-lessons
 .\scripts\download-deps.ps1
 ```
 
-### Building
+### Build and run
 
 In the Developer PowerShell tab, run:
 
