@@ -55,9 +55,12 @@ In the Developer PowerShell tab, run:
 .\scripts\compile-and-run.ps1
 ```
 
-This should result in a blank window showing for 1 second, if so: good job! If not: blame me! (Please create an issue.)
+This should result in a blank window showing for 1 second, if so, good job!
+
+If not, please create an issue.
 
 ### Change default startup directory in Terminal
+
 1. Click the arrow next to the `+` button
 2. Click "Settings"
 3. Under "Profiles", click "Defaults"
