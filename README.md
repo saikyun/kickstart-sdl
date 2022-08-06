@@ -51,11 +51,11 @@ Remove-Item vs_buildtools.exe
 3. Click the arrow next to the `+` button, and choose "Developer PowerShell for VS 2022"
 4. Run the following commands:
 ```
-git clone https://github.com/saikyun/sdl-lessons
-cd sdl-lessons
+git clone https://github.com/saikyun/kickstart-sdl
+cd kickstart-sdl
 ```
 
-**From now on, all commands are expected to run in the `sdl-lessons` directory using the "Developer PowerShell for VS 2022"**
+**From now on, all commands are expected to run in the `kickstart-sdl` directory using the "Developer PowerShell for VS 2022"**
 
 ### Download SDL2 dev files
 
@@ -80,9 +80,17 @@ If not, please create an issue.
 You have now:
 * Installed git
 * Installed Visual Studio Build Tools, which includes the C compiler cl.exe
-* Cloned the sdl-lessons repo
+* Cloned the kickstart-sdl repo
 * Downloaded SDL2 dev files
 * Compiled and ran the sample program
+
+Your kickstart-sdl folder should have the following structure:
+```
+src/      # your source code
+SDL/      # SDL dev files
+scripts/  # scripts for downloading dependencies and building
+build/    # where your .exe ends up, and where SDL2.dll is
+```
 
 You are now ready to start writing C programs using SDL!
 
