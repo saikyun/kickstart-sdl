@@ -87,14 +87,14 @@ cd kickstart-sdl
 
 Run:
 ```
-.\scripts\download-deps.ps1
+.\scripts\windows\download-deps.ps1
 ```
 
 ### Build and run
 
 Run:
 ```
-.\scripts\compile-and-run.ps1
+.\scripts\windows\compile-and-run.ps1
 ```
 
 This should result in a white window showing, that you can close by clicking the X button in the top right.
