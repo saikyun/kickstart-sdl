@@ -2,6 +2,32 @@
 
 Guide and scripts for getting started with C and SDL quickly.
 
+## MacOS
+
+### Prerequisites
+
+* Xcode command line tools (for Git & clang)
+* SDL2 dev files
+
+To install these automatically, first open a terminal, then write git. MacOS will ask you to install Xcode command line tools. Press Yes.
+
+After that, you can run the following:
+```
+git clone https://github.com/saikyun/kickstart-sdl
+cd kickstart-sdl
+chmod u+x ./scripts/macos/*
+./scripts/macos/download-deps
+```
+This will build and install SDL.
+
+### Building & running
+
+```
+./scripts/macos/compile-and-run
+```
+
+You should now see a white window, that you can close by clicking the red close button.
+
 ## Windows
 
 ### Prerequisites
@@ -71,7 +97,7 @@ Run:
 .\scripts\compile-and-run.ps1
 ```
 
-This should result in a blank window showing for 1 second, if so, good job!
+This should result in a white window showing, that you can close by clicking the X button in the top right.
 
 If not, please create an issue.
 

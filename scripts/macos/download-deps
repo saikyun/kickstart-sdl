@@ -1,0 +1,11 @@
+#!/bin/zsh
+# instructions from https://wiki.libsdl.org/SDL2/Installation
+
+git clone https://github.com/libsdl-org/SDL.git -b SDL2
+cd SDL
+cwd=$(pwd)
+mkdir build
+cd build
+CC=$cwd/build-scripts/clang-fat.sh ../configure
+make
+sudo make install
